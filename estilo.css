@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+.conteudo{
+    align-items: center; 
+    height: 100vh;   
+  }
+
+.cabecalho{
+    padding-top: 72px ;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 1171px;
+    height: 39px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Home{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Sobre{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Tours{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Fotos{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Reviews{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Contato{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.TelaInicial{
+    background-image: url(Imagens/Beckground-TelaInicial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linha1{
+    padding-top: 98px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-family: "Poppins";
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.texto{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 275;
+    color: #FFFFFF;
+    line-height: 120%;
+    text-align: center;
+}
+
+.boton1{
+    padding-top: 369px;
+    align-items: center;
+    margin-bottom: 166px;
+}
+
+.botao{
+    background-color: #00B43D;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 69px;
+    margin-top: 16px;
+    color: #FFFFFF;
+    width: 191px;
+    height: 60px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+.Tela2{
+    background-image: url(Imagens/Background-Tour.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 166px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+}
+.subtitulo{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.lista-opcao{
+        margin-top: 54px;
+        margin-left: 44px;
+        margin-right: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+}
+
+.item-opcao{
+    width: 320px;
+    height: 586px;
+    background-color: #585858;
+    border: 1px solid #585858;
+}
+
+.foto-opcao{
+    padding-top: 24px;
+    padding-left: 24px;
+    width: 272px;
+    height: 252px;
+}
+
+.titulo-opcao{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 32px;
+    padding-left: 24px;
+    padding-top: 17px;
+    color: #FFFFFF;
+}
+
+.texto-opcao{
+    font-family: "Poppins";
+    font-weight: 300px;
+    font-size: 16px;
+    padding-left: 24px;
+    padding-top: 6px;
+    color: #FFFFFF;
+}
+
+.botao-opcao{
+    font-family: "Inter";
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    width: 54px;
+    height: 28px;
+    background-color: #4E4E4E;
+    margin-top: 6px;
+    margin-left: 17px;
+    text-decoration: none;
+}
+
